@@ -22,6 +22,11 @@ public class Ejercicio_1_Guia1 {
         
         System.out.println("Ingrese 2 numeros");
         System.out.print("Numero 1: ");
+        num1 = leer.nextInt();
+        System.out.print("Numero 2: ");
+        num2 = leer.nextInt();
+        System.out.println("");
+        System.out.println("La suma de los 2 numeros ingresados es: "+ (num1+num2));
     }
     
 }
